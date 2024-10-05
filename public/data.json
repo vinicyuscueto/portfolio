@@ -2,7 +2,7 @@
     "projects": [
         {
             "name": "AUTH",
-            "description": "Auth é uma página de autenticação de usuários, construída com o objetivo de sintetizar conhecimentos em React.js, utilizando Context API e LocalStorage.",
+            "description": "Auth é uma aplicação Web de autenticação de usuários, construída com o objetivo de sintetizar conhecimentos em React.js, utilizando Context API e LocalStorage.",
             "image": "/portfolio/assets/auth.png",
             "link": "https://vinicyuscueto.github.io/react-auth/"
         },

@@ -1,0 +1,48 @@
+#knowledge h1 {
+    padding: 40px;
+    font-size: 2rem;
+}
+
+#knowledge i {
+    font-size: 2.5rem;
+}
+
+#knowledge p {
+    font-size: 0.8rem;
+}
+
+.knowledge-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: 20px;
+}
+
+.knowledge-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 110px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background-color: var(--bg-color-2);
+    color: var(--main-color);
+    padding: 10px;
+}
+
+.knowledge-item:hover {
+    background-color: var(--main-color);
+    color: var(--bg-color-1);
+    box-shadow: 0 0 0.3em var(--main-color);
+}
+
+@media (max-width: 768px) {
+    #knowledge {
+        padding: 10px;
+        padding-top: 20px;
+    }
+
+    #knowledge h1 {
+        padding: 0;
+        padding-bottom: 20px;
+    }
+}

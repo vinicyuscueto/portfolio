@@ -1,0 +1,115 @@
+{
+    "projects": [
+        {
+            "name": "AUTH",
+            "description": "Auth é uma página de autenticação de usuários, construída com o objetivo de sintetizar conhecimentos em React.js, utilizando Context API e LocalStorage.",
+            "image": "/portfolio/assets/auth.png",
+            "link": "https://vinicyuscueto.github.io/react-auth/"
+        },
+        {
+            "name": "PORTFÓLIO",
+            "description": "Portfólio é um página pessoal desenvolvida com o objetivo de apresentar habilidades, conhecimentos, experiências e projetos de forma simples e prática.",
+            "image": "/portfolio/assets/portfolio.png",
+            "link": "https://vinicyuscueto.github.io/portfolio/"
+        }
+    ],
+    "knowledge": [
+        {
+            "icon": "bx bxl-java",
+            "label": "Java"
+        },
+        {
+            "icon": "bx bxl-android",
+            "label": "Kotlin"
+        },
+        {
+            "icon": "bx bxl-android",
+            "label": "Android Studio"
+        },
+        {
+            "icon": "bx bx-windows",
+            "label": "Netbeans IDE"
+        },
+        {
+            "icon": "bx bxl-html5",
+            "label": "HTML"
+        },
+        {
+            "icon": "bx bxl-css3",
+            "label": "CSS"
+        },
+        {
+            "icon": "bx bxl-javascript",
+            "label": "Javascript"
+        },
+        {
+            "icon": "bx bxl-react",
+            "label": "React.js"
+        },
+        {
+            "icon": "bx bxl-bootstrap",
+            "label": "Bootstrap"
+        },
+        {
+            "icon": "bx bxs-file-json",
+            "label": "JSON"
+        },
+        {
+            "icon": "bx bx-data",
+            "label": "SQL"
+        },
+        {
+            "icon": "bx bxl-visual-studio",
+            "label": "VSCode"
+        },
+        {
+            "icon": "bx bxl-microsoft",
+            "label": "Microsoft 365"
+        },
+        {
+            "icon": "bx bxl-microsoft",
+            "label": "Microsoft Azure"
+        },
+        {
+            "icon": "bx bxl-microsoft",
+            "label": "Microsoft Power BI"
+        },
+        {
+            "icon": "bx bxl-microsoft",
+            "label": "Microsoft SQL Server"
+        },
+        {
+            "icon": "bx bxl-microsoft",
+            "label": "Microsoft SSMS"
+        },
+        {
+            "icon": "bx bx-windows",
+            "label": "Atlassian Jira"
+        },
+        {
+            "icon": "bx bxl-adobe",
+            "label": "Adobe Photoshop"
+        },
+        {
+            "icon": "bx bx-library",
+            "label": "TOGAF"
+        }
+    ],
+    "ability": [
+        {
+            "title": "DESENVOLVIMENTO WEB (FRONT-END)",
+            "description": "Desenvolvimento de aplicações Web baseadas em tecnologias como React.js (HTML, CSS e Javascript), além de frameworks como Bootstrap, entre outras.",
+            "icon": "bx bx-code-alt"
+        },
+        {
+            "title": "DESENHO TÉCNICO DE SOLUÇÃO",
+            "description": "Identificação, análise e representação de cenários de aplicações, ilustrando a arquitetura, funcionalidades e dependências de uma solução.",
+            "icon": "bx bx-edit"
+        },
+        {
+            "title": "INDICADORES GRÁFICOS (KPIs)",
+            "description": "Construção e apresentação de indicadores de processo, a partir de ferramentas como Microsoft Power BI ou Atlassian Jira, por exemplo.",
+            "icon": "bx bx-objects-vertical-bottom"
+        }
+    ]
+}

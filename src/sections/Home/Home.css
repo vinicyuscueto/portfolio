@@ -1,0 +1,18 @@
+#home {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#home h1 {
+    font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+    #home {
+        padding: 50px 10px;
+        min-height: auto;
+    }
+}

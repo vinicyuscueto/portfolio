@@ -1,0 +1,76 @@
+#projects h1 {
+  padding: 40px;
+  font-size: 2rem;
+}
+
+#projects h2 {
+  font-size: 1.5rem;
+  color: var(--main-color);
+  padding: 10px;
+}
+
+#projects i {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  padding: 10px;
+  font-size: 2rem;
+  color: var(--bg-color-1);
+  background: var(--text-color);
+  border-radius: 50%;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  gap: 20px;
+}
+
+.project-image {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.project-image:hover img {
+  transform: scale(1.05);
+}
+
+.project-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  inset: 0;
+  background-color: var(--overlay);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  user-select: none;
+  padding: 10px 20px;
+}
+
+.project-image:hover .project-overlay {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  #projects {
+    padding: 10px;
+    padding-top: 20px;
+  }
+
+  #projects h1 {
+    padding: 0;
+    padding-bottom: 20px;
+  }
+}

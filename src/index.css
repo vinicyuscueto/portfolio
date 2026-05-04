@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Space Grotesk", sans-serif;
+  background: #0a0a0a;
+  color: #f3f4f6;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@layer components {
+  h1 {
+    @apply text-5xl md:text-7xl font-bold mb-6 text-cyan-400;
+  }
+  h2 {
+    @apply text-3xl font-bold mb-8 text-cyan-400 text-center;
+  }
+  h3 {
+    @apply text-xl font-bold mb-4;
+  }
+  h4 {
+    @apply text-lg my-4 max-w-lg mx-auto;
+  }
+  h5 {
+    @apply text-lg;
+  }
+  span {
+    @apply py-1 px-3 rounded-full text-sm border border-blue-500/50 text-blue-500 transition-all duration-200 hover:-translate-y-0.5 hover:text-black hover:bg-cyan-400;
+  }
+  p {
+    @apply text-gray-400 mb-4;
+  }
+  .panel {
+    @apply rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all;
+  }
+  .button {
+    @apply border border-blue-500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:text-black hover:bg-cyan-400;
+  }
+  .button-label {
+    @apply text-blue-400 hover:text-blue-300 transition-colors my-2;
+  }
+}
